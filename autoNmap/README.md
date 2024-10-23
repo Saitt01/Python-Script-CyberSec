@@ -31,7 +31,7 @@ To run this script, you need:
 
 2. Navigate to the project directory:
 
-    cd auto-nmap
+    cd autoNmap
 
 3. Install the required dependencies:
 
