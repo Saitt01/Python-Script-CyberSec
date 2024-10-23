@@ -43,7 +43,7 @@ To run this script, you need:
 
 1. Run the script:
 
-    python auto_nmap.py
+    python autoNmap.py
 
 2. Enter the target IP address and choose the desired scan type:
 
