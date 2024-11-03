@@ -33,7 +33,7 @@ def auto_nmap(target_ip, scan_type):
     if scan_type == "1":                     # Quick
         nmap = f"nmap -T4 -F -oN {output_file} {target_ip}"
     elif scan_type == "2":                   # Full
-        nmap = f"nmap -sS -sV -A -oN {output_file} {target_ip}"    
+        nmap = f"nmap -sS -sV -A -p- -oN {output_file} {target_ip}"    
     elif scan_type == "3":                   # Stealth
         nmap = f"nmap -sS -T2 -D RND:10 -oN {output_file} {target_ip}"    
     elif scan_type == "4":                   # OS
